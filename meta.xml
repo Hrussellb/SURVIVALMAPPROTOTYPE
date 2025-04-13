@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="Table Meta Information">
+    <config key="table.meta.internal">
+        <entry key="container.version" type="xstring" value="container_12"/>
+        <entry key="table.size" type="xint" value="792994"/>
+        <entry key="container.contains.blobs" type="xboolean" value="false"/>
+        <entry key="container.filestores.uuid" type="xstring" isnull="true" value=""/>
+        <entry key="container.inmemory" type="xboolean" value="true"/>
+        <entry key="container.id" type="xint" value="171"/>
+        <entry key="container.format" type="xstring" value="org.knime.core.data.container.DefaultTableStoreFormat"/>
+        <config key="container.format.config">
+            <entry key="container.compression" type="xstring" value="Snappy"/>
+            <config key="table.datacell.classes">
+                <config key="element_0">
+                    <entry key="class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                </config>
+                <config key="element_1">
+                    <entry key="class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                </config>
+            </config>
+        </config>
+        <entry key="container.compression" type="xstring" value="Snappy"/>
+        <config key="table.datacell.classes">
+            <config key="element_0">
+                <entry key="class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+            </config>
+            <config key="element_1">
+                <entry key="class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            </config>
+        </config>
+    </config>
+</config>
