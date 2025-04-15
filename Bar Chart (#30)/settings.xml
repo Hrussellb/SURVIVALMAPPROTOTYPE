@@ -22,12 +22,10 @@
         <entry key="aggregationMethod" type="xstring" value="NONE"/>
         <config key="frequencyColumns">
             <config key="selected_Internals">
-                <entry key="array-size" type="xint" value="5"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="Population total"/>
                 <entry key="1" type="xstring" value="Urban total"/>
                 <entry key="2" type="xstring" value="Rural total"/>
-                <entry key="3" type="xstring" value="NY_status_score"/>
-                <entry key="4" type="xstring" value="Federal_status_score"/>
             </config>
             <entry key="mode" type="xstring" value="MANUAL"/>
             <config key="patternFilter">
@@ -37,15 +35,15 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="5"/>
+                    <entry key="array-size" type="xint" value="3"/>
                     <entry key="0" type="xstring" value="Population total"/>
                     <entry key="1" type="xstring" value="Urban total"/>
                     <entry key="2" type="xstring" value="Rural total"/>
-                    <entry key="3" type="xstring" value="NY_status_score"/>
-                    <entry key="4" type="xstring" value="Federal_status_score"/>
                 </config>
                 <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="0"/>
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xstring" value="NY_status_score"/>
+                    <entry key="1" type="xstring" value="Federal_status_score"/>
                 </config>
                 <entry key="includeUnknownColumns" type="xboolean" value="false"/>
             </config>
@@ -56,6 +54,7 @@
             </config>
         </config>
     </config>
+    <config key="variables"/>
     <config key="view">
         <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
         <entry key="maxRows" type="xint" value="100"/>
@@ -79,6 +78,7 @@
         <entry key="selectionMode" type="xstring" value="EDIT"/>
         <entry key="enableAnimation" type="xboolean" value="true"/>
     </config>
+    <config key="view_variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
@@ -117,6 +117,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2240373d-6fd2-4d43-a890-dae1734b94b9"/>
+        <entry key="file_store_id" type="xstring" value="b4ac8740-dc88-4a0d-9d1e-b7ec2cba0342"/>
     </config>
 </config>
